@@ -17,7 +17,7 @@ grafana:
       ##
       annotations: {}
 
-      ## Create datasource for each Pod of Prometheus StatefulSet;
+      ## Create datasource for   each Pod of Prometheus StatefulSet;
       ## this uses headless service `prometheus-operated` which is
       ## created by Prometheus Operator
       ## ref: https://git.io/fjaBS
