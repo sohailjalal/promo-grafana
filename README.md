@@ -2,7 +2,7 @@
 
 ## This is how to deploy grafana &  promethues helm charts
 
-## Deploy Grafana 
+## Deploy  Grafana 
 ```
 cd grafana
 kubectl create namespace monitoring
@@ -19,7 +19,7 @@ helm install --name release2 --namespace monitoring .
 ```
 
 
-- if you need to modify the retention period just modify the values.yaml file and modify the 
+- if you need  to modify the retention period just modify the values.yaml file and modify the 
 ```
   prometheusSpec:
     retention: 35d
