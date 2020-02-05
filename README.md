@@ -1,6 +1,6 @@
 # prom-grafana
 
-## This is how to deploy grafana and promethues helm charts
+## This is how to deploy grafana &  promethues helm charts
 
 ## Deploy Grafana 
 ```
