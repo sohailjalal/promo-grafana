@@ -2,7 +2,7 @@
 
 ## This is how to deploy grafana &  promethues helm charts
 
-## Deploy  Grafana 
+## Deploy Grafana 
 ```
 cd grafana
 kubectl create namespace monitoring
