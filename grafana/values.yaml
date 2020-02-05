@@ -13,7 +13,7 @@ default:
   tls_secret_name: example.com-tls
 
   memory_limit: 1024Mi
-
+# memory limit 
   env_variables:
     CONTAINER_LOGGER_LOGROTATE_MAX_STDOUT_SIZE: "10MB"
     CONTAINER_LOGGER_LOGROTATE_MAX_STDERR_SIZE: "10MB"
